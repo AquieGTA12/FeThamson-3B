@@ -6,10 +6,10 @@ async function vizualizarinformacoesGlobais() {
     console.log(dados);
     const paragrafo document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que no planeta há ${dados.total_pessoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_mundo} jogam algum jogo eletrônico e passam em média ${dados.tempo_medio} horas conectadas.`
+    paragrafo.innerHTML = `Você sabia que no planeta há ${dados.total_pessoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_conectadas} jogam algum jogo eletrônico e passam em média ${dados.tempo_medio} horas conectadas.`
     console.log(paragrafo)
 
-    const container = document.getElementById('graficos-container')
+    const container = document.getElement
 }
 
 vizualizarinformacoesGlobais()
